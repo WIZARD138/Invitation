@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('https://i.pinimg.com/originals/21/ad/30/21ad30f5d70b2f64b01a30faf680f5bc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .invite-btn {
+    background-color: #ff6f61;
+    color: beige;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .invite-btn:hover {
+    background-color: #ff4f41;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .info-page {
+    display: none;
+    padding: 20px;
+  }
+  
+  .info-page.active {
+    display: block;
+  }
+  
+  .details-card {
+    background-color: white;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+  }
+  
+  h1{
+    color: beige;
+  }
+  h2{
+    color: black;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .back-btn {
+    background-color: #61afff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-btn:hover {
+    background-color: #3d91ff;
+  }
+  

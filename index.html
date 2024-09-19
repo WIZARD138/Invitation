@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Invitation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+  <div class="container" id="landing-page">
+    <div>
+      <h1>You're Invited to My Birthday Party!</h1>
+      <button class="invite-btn" onclick="showDetails()">Click Me!</button>
+    </div>
+  </div>
+
+  
+  <div class="info-page" id="info-page">
+    <div class="details-card">
+      <h2>🎉 Birthday Party Details 🎉</h2>
+      <p>Date: September 21, 2024</p>
+      <p>Time: 3:00 PM</p>
+      <p>Location:Shiv Sagar Resto, Thane(West) </p>
+      <p>Bring your positive vibes! 🎶🕺</p>
+
+      <button class="back-btn" onclick="goBack()">Go Back</button>
+    </div>
+  </div>
+
+  <script>
+    function showDetails() {
+      document.getElementById('landing-page').style.display = 'none';
+      document.getElementById('info-page').classList.add('active');
+    }
+
+    function goBack() {
+      document.getElementById('info-page').classList.remove('active');
+      document.getElementById('landing-page').style.display = 'flex';
+    }
+  </script>
+
+</body>
+</html>
